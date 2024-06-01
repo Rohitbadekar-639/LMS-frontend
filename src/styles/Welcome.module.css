@@ -18,5 +18,6 @@
 }
 
 .welcome img {
-  width: 100px; /* Adjust image size if needed */
+  width: 200px;
+  padding-left: 500px;
 }

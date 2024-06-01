@@ -4,7 +4,7 @@
   justify-content: space-between; /* Distribute content horizontally */
   width: 100%;
   padding: 1rem;
-  background-color: #f0f0f0; /* Maintain your background color preference */
+  background-color: #f0f0f0; 
 }
 
 .logo {
@@ -30,5 +30,5 @@
 .user-profile {
   display: flex; /* Allow horizontal alignment of avatar and name */
   align-items: center; /* Align content vertically */
-  margin-left: 1rem; /* Add some margin from the search bar */
+  margin-left: 1rem; 
 }

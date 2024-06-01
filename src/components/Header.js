@@ -17,7 +17,7 @@ const Header = ({ userName, onSearch }) => {
     <header className={styles.header}>
       <div className={styles.headerLeft}>
         <img src={logo} alt="LMS Logo" className={styles.logo} />
-        <h1 className={styles.title}>LMS Dashboard</h1>
+        <h1 className={styles.title}>Leapot Technologies</h1>
       </div>
       <div className={styles.headerRight}>
         <SearchBar onSearch={onSearch} />
