@@ -1,10 +1,10 @@
-# LMS Frontend Application - README
+# LMS Frontend Application 
 This README file provides instructions on how to set up and run the LMS Frontend application, a React application that serves as the user interface for a Learning Management System.
 
 # Prerequisites
-## Node.js and npm (or yarn) installed on your system. You can download them from https://nodejs.org/en
+Node.js and npm (or yarn) installed on your system. You can download them from https://nodejs.org/en
 ## Setting Up the Project
-## Clone the Repository:
+Clone the Repository:
 
 Open your terminal and navigate to the directory where you want to clone the project. Use the following command to clone the repository from 
 
@@ -16,7 +16,7 @@ Use code with caution.
 content_copy
 Replace YOUR_USERNAME with your actual GitHub username.
 
-Install Dependencies:
+## Install Dependencies:
 
 Navigate to the project directory:
 
@@ -32,7 +32,7 @@ Use code with caution.
 content_copy
 (Alternatively, with yarn: yarn install)
 
-Run the Development Server:
+## Run the Development Server:
 
 Start the development server to run the application locally:
 
@@ -42,9 +42,9 @@ Use code with caution.
 content_copy
 (Alternatively, with yarn: yarn start)
 
-This will start the server and open the application in your default web browser, typically at http://localhost:3000.
+### This will start the server and open the application in your default web browser, typically at http://localhost:3000.
 
-Usage
+## Usage
 The application provides a basic dashboard interface for an LMS system. You can navigate through different components and see functionalities like:
 
 Header: Displays application logo and user information (name and optional profile picture).
@@ -55,10 +55,10 @@ Course List: Lists enrolled courses with details like name, teacher, and progres
 Course Details: Shows details of a specific course when selected from the list (if implemented).
 Note: The specific functionalities might vary depending on the features implemented in the application.
 
-Contributing
+## Contributing
 If you'd like to contribute to this project, feel free to fork the repository on GitHub and submit pull requests with your changes.
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 
