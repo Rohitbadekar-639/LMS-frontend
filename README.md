@@ -1,4 +1,4 @@
-# LMS Frontend Application 
+# LMS Dashboard Frontend Application 
 This README file provides instructions on how to set up and run the LMS Frontend application, a React application that serves as the user interface for a Learning Management System.
 
 # Prerequisites
