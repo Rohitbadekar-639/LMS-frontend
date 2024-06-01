@@ -1,28 +1,22 @@
-.welcome-container {
-  display: flex;
-  width: 50%; /* Set the width for half the screen */
-  float: left; 
-}
-
+/* Welcome.module.css */
 .welcome {
-  padding: 4rem; 
-  border: 1px solid #ddd; 
+  flex: 1; /* Make Welcome component occupy half the available space */
+  display: flex;
+  flex-direction: column; /* Stack content vertically within Welcome */
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  padding: 1rem;
+  border: 1px solid #ddd;
+  margin: 0.5rem;
+  border-radius: 4px;
 }
 
 .welcome h1,
-.welcome h4 {
-  margin: 0.5rem 0; 
+.welcome h4,
+.welcome img {
+  margin: 0.5rem 0; /* Add some margin between elements */
 }
 
-.welcome img.logo {
-  width: 150px; /* Adjust image width as needed */
-  height: auto; /* Maintain aspect ratio */
-  float: right; /* Position the image to the right */
-  margin-left: 1rem; /* Add space between text and image */
+.welcome img {
+  width: 100px; /* Adjust image size if needed */
 }
-
-/* Welcome.module.css */
-.yellow-text {
-  color: yellow;
-}
-

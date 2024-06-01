@@ -1,23 +1,34 @@
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 1rem;
-    background-color: #f0f0f0;
-  }
-  
-  .logo {
-    width: 50px;
-    height: 50px;
-  }
-  
-  .title {
-    margin: 0;
-  }
-  
-  .user {
-    font-style: italic;
-    color: #888;
-  }
-  
+  display: flex; /* Maintain flexbox layout for side-by-side elements */
+  align-items: center; /* Align elements vertically */
+  justify-content: space-between; /* Distribute content horizontally */
+  width: 100%;
+  padding: 1rem;
+  background-color: #f0f0f0; /* Maintain your background color preference */
+}
+
+.logo {
+  width: 50px;
+  height: 50px; /* Maintain logo size */
+}
+
+.title {
+  margin: 0; /* Maintain no margin for title */
+  padding-left: 600px;
+}
+
+.user {
+  font-style: italic; /* Maintain italic style for username */
+  color: #888; /* Maintain username color */
+}
+
+.dropdown-menu {
+  position: absolute; /* Position the dropdown menu */
+  right: 0; /* Display to the right of the user profile */
+}
+
+.user-profile {
+  display: flex; /* Allow horizontal alignment of avatar and name */
+  align-items: center; /* Align content vertically */
+  margin-left: 1rem; /* Add some margin from the search bar */
+}

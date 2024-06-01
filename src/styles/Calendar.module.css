@@ -1,28 +1,61 @@
 /* Calendar.module.css */
 .calendar {
-    border: 1px solid #ddd; /* Optional border */
-    padding: 1rem; /* Add some padding */
-    width: 100%; /* Adjust width as needed */
-  }
-  
-  .calendar table {
-    width: 100%;
-    border-collapse: collapse; /* Remove default table borders */
-  }
-  
-  .calendar th,
-  .calendar td {
-    text-align: center;
-    padding: 0.5rem;
-    border: 1px solid #ddd; /* Optional cell borders */
-  }
-  
-  .calendar .today {
-    background-color: #f5f5f5; /* Highlight current day */
-  }
-  
-  .calendar .empty {
-    background-color: #eee; /* Optional styling for empty cells */
-    opacity: 0.5; /* Optional dimmed opacity */
-  }
-  
+  flex: 1; /* Make Calendar component occupy half the available space */
+  padding: 1rem;
+  border: 1px solid #ddd;
+  margin: 0.5rem;
+  border-radius: 4px;
+}
+
+.calendar button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem; /* Adjust button padding */
+  border: none; /* Remove default button border */
+  border-radius: 4px; /* Add rounded corners */
+  cursor: pointer; /* Indicate clickable buttons */
+  background-color: #f0f0f0; /* Light background color */
+}
+
+.calendar button:hover {
+  background-color: #e0e0e0; /* Slightly darker background on hover */
+}
+
+.calendar h2 {
+  text-align: center;
+  margin: 0.5rem 0; /* Add some margin above and below the header */
+}
+
+.calendar table {
+  border-collapse: collapse; /* Remove borders between table cells */
+  width: 100%;
+}
+
+.calendar th,
+.calendar td {
+  text-align: center;
+  padding: 0.5rem;
+  cursor: pointer; /* Optional: indicate clickable dates */
+}
+
+.calendar-cell {
+  border: 1px solid #ddd; /* Add thin border to each cell */
+}
+
+.calendar-cell.empty {
+  background-color: #fafafa; /* Lighten background for empty cells */
+}
+
+.calendar-cell.today {
+  background-color: #f0f0f0; /* Lighter background for today's date */
+}
+
+.calendar-cell.selected {
+  background-color: #007bff; /* Blue background for selected date */
+  color: #fff; /* White text for selected date */
+}
+
+/* Optional weekend styling */
+.calendar-cell.Sun,
+.calendar-cell.Sat {
+  background-color: #f5f5f5; /* Light gray for weekends */
+}
