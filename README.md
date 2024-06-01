@@ -20,7 +20,10 @@ Navigate to the project directory:
 
 cd lms-frontend
 
-Install the required dependencies using npm or yarn:
+### Install below required dependencies using npm or yarn: 
+
+npm install react-router-dom redux axios @ramonak/react-progress-bar @reduxjs/toolkit OR
+yarn add react-router-dom redux axios @ramonak/react-progress-bar @reduxjs/toolkit
 
 ### Bash:
 
