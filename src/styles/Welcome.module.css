@@ -1,4 +1,28 @@
-.welcome {
-    text-align: center;
+.welcome-container {
+  display: flex;
+  width: 50%; /* Set the width for half the screen */
+  float: left; 
 }
-  
+
+.welcome {
+  padding: 4rem; 
+  border: 1px solid #ddd; 
+}
+
+.welcome h1,
+.welcome h4 {
+  margin: 0.5rem 0; 
+}
+
+.welcome img.logo {
+  width: 150px; /* Adjust image width as needed */
+  height: auto; /* Maintain aspect ratio */
+  float: right; /* Position the image to the right */
+  margin-left: 1rem; /* Add space between text and image */
+}
+
+/* Welcome.module.css */
+.yellow-text {
+  color: yellow;
+}
+

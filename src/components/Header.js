@@ -7,7 +7,7 @@ const Header = ({ userName }) => {
     <header className={styles.header}>
       <img src={logo} alt="LMS Logo" className={styles.logo} />
       <h1 className={styles.title}>LMS Dashboard</h1>
-      {userName && <p className={styles.user}>Welcome, {userName}</p>}
+      {userName && <p className={styles.user}>{userName}</p>}
     </header>
   );
 };
