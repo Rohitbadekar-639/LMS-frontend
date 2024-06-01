@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; // Assuming you're using react-router-dom
+import { Link } from 'react-router-dom';
 
 const UserProfile = ({ name, avatarUrl }) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);

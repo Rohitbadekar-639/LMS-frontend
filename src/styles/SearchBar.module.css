@@ -1,0 +1,17 @@
+.search-bar {
+    display: inline-block; /* Display search bar inline */
+    margin-right: 1rem; 
+  }
+  
+  .search-bar input {
+    padding: 0.5rem 1rem; 
+    border: 1px solid #ddd; 
+    border-radius: 3px; /* Rounded corners for input field */
+    font-size: 1rem; 
+  }
+  
+  .search-bar input:focus {
+    outline: none; 
+    border-color: #ccc; 
+  }
+  

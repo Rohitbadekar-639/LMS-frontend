@@ -1,0 +1,14 @@
+const SearchBar = ({ onSearch }) => {
+    const handleSearchChange = (event) => {
+      onSearch(event.target.value);
+    };
+  
+    return (
+      <div className="search-bar">
+        <input type="text" placeholder="Search..." onChange={handleSearchChange} />
+      </div>
+    );
+  };
+  
+export default SearchBar;
+  
