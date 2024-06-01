@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import logo from './logo.png';
-// import { Link } from 'react-router-dom'; 
+import logo from './images/logo.png';
 import styles from '../styles/Header.module.css';
 import SearchBar from './SearchBar';
 import UserProfile from './UserProfile';
-import userAvatar from "./man.png"
+import userAvatar from "./images/man.png";
 
 const Header = ({ userName, onSearch }) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -21,9 +20,13 @@ const Header = ({ userName, onSearch }) => {
       </div>
       <div className={styles.headerRight}>
         <SearchBar onSearch={onSearch} />
-        <UserProfile className="user-profile" name={userName} avatarUrl={userAvatar} 
-                     dropdownOpen={dropdownOpen}
-                     onToggleDropdown={toggleDropdown} />
+        <UserProfile
+          className="user-profile"
+          name={userName}
+          avatarUrl={userAvatar}
+          dropdownOpen={dropdownOpen}
+          onToggleDropdown={toggleDropdown}
+        />
       </div>
     </header>
   );

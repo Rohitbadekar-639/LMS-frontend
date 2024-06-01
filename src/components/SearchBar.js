@@ -1,14 +1,21 @@
+import React, { useState } from 'react';
+
 const SearchBar = ({ onSearch }) => {
-    const handleSearchChange = (event) => {
-      onSearch(event.target.value);
-    };
-  
-    return (
-      <div className="search-bar">
-        <input type="text" placeholder="Search..." onChange={handleSearchChange} />
-      </div>
-    );
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const handleSearchChange = (event) => {
+    setSearchTerm(event.target.value);
+    onSearch(searchTerm);
   };
-  
+
+  return (
+    <input
+      type="text"
+      placeholder="Search Courses"
+      value={searchTerm}
+      onChange={handleSearchChange}
+    />
+  );
+};
+
 export default SearchBar;
-  

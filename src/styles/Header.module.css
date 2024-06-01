@@ -14,7 +14,7 @@
 
 .title {
   margin: 0; /* Maintain no margin for title */
-  padding-left: 600px;
+  padding-left: 600px; /* Adjust based on your layout needs */
 }
 
 .user {
@@ -31,4 +31,10 @@
   display: flex; /* Allow horizontal alignment of avatar and name */
   align-items: center; /* Align content vertically */
   margin-left: 1rem; 
+}
+
+.user-profile img {
+  width: 40px; /* Adjust to desired width */
+  height: 40px; /* Adjust to desired height */
+  border-radius: 50%; /* Make it a circle if it's a square image */
 }

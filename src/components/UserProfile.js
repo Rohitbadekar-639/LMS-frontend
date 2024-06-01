@@ -1,17 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
-const UserProfile = ({ name, avatarUrl }) => {
-  const [dropdownOpen, setDropdownOpen] = useState(false);
-
-  const toggleDropdown = () => {
-    setDropdownOpen(!dropdownOpen);
-  };
-
+const UserProfile = ({ className, name, avatarUrl, dropdownOpen, onToggleDropdown }) => {
   return (
-    <div className="user-profile">
+    <div className={className}>
       <img src={avatarUrl} alt="User Avatar" />
-      <span onClick={toggleDropdown}>{name}</span>
+      <span onClick={onToggleDropdown}>{name}</span>
       {dropdownOpen && (
         <ul className="dropdown-menu">
           <li>
@@ -24,6 +19,14 @@ const UserProfile = ({ name, avatarUrl }) => {
       )}
     </div>
   );
+};
+
+UserProfile.propTypes = {
+  className: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  avatarUrl: PropTypes.string.isRequired,
+  dropdownOpen: PropTypes.bool.isRequired,
+  onToggleDropdown: PropTypes.func.isRequired,
 };
 
 export default UserProfile;

@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../styles/Welcome.module.css';
-import photo from './photo.png'; 
+import photo from './images/photo.png'; 
 
 const Welcome = ({ name }) => {
   return (
