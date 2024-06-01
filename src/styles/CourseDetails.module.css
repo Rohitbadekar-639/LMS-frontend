@@ -1,0 +1,15 @@
+.courseDetails {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+  }
+  
+  .details {
+    margin-top: 1rem;
+  }
+  
+  .details p {
+    margin-bottom: 0.5rem;
+  }
+  
