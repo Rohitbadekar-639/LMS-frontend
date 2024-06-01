@@ -1,0 +1,27 @@
+/* NavLinks.module.css */
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Remove default list margins */
+  }
+  
+  .nav-links li {
+    margin-right: 1rem; /* Add margin between links */
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333; /* Link color */
+    font-weight: bold; /* Add some weight to navigation links */
+  }
+  
+  .nav-links a:hover {
+    color: #007bff; /* Change color on hover (optional) */
+  }
+  
+  .nav-links a.active {
+    font-weight: bolder; /* Make active link bolder */
+    border-bottom: 2px solid #007bff; /* Add underline to active link */
+  }
+  
