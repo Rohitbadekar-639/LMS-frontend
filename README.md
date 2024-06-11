@@ -12,7 +12,7 @@ Open your terminal and navigate to the directory where you want to clone the pro
 
 ### Bash:
 
-git clone https://github.com/Rohitbadekar-639/leapot-frontend
+git clone https://github.com/Rohitbadekar-639/LMS-frontend
 
 ## Install Dependencies:
 
